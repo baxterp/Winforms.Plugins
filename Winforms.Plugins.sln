@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms.Plugins.Host", "Winforms.Plugins.Host\Winforms.Plugins.Host.csproj", "{1AF6E0CF-C188-4404-A24C-F3E61460812E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms.Plugins.Shared", "Winforms.Plugins.Shared\Winforms.Plugins.Shared.csproj", "{B4ADFA36-268B-4B7F-B9F1-F8DB5C980DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms.Plugins.DemoPlugin", "Winforms.Plugins.DemoPlugin\Winforms.Plugins.DemoPlugin.csproj", "{DA5848C5-7D5C-4889-8779-B838E3CCB46D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57EB394E-0610-414F-9FAB-78506AEC6595}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms.Plugins.DemoPlugin.TestHarness", "Winforms.Plugins.DemoPlugin.TestHarness\Winforms.Plugins.DemoPlugin.TestHarness.csproj", "{FD317D23-C9D2-47B7-99BB-7E36C66E2C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms.Plugins.DemoPlugin2", "Winforms.Plugins.DemoPlugin2\Winforms.Plugins.DemoPlugin2.csproj", "{688D837F-C097-4B28-B2F6-FCB5437E66D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF6E0CF-C188-4404-A24C-F3E61460812E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF6E0CF-C188-4404-A24C-F3E61460812E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF6E0CF-C188-4404-A24C-F3E61460812E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF6E0CF-C188-4404-A24C-F3E61460812E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4ADFA36-268B-4B7F-B9F1-F8DB5C980DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4ADFA36-268B-4B7F-B9F1-F8DB5C980DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4ADFA36-268B-4B7F-B9F1-F8DB5C980DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4ADFA36-268B-4B7F-B9F1-F8DB5C980DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5848C5-7D5C-4889-8779-B838E3CCB46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5848C5-7D5C-4889-8779-B838E3CCB46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5848C5-7D5C-4889-8779-B838E3CCB46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5848C5-7D5C-4889-8779-B838E3CCB46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD317D23-C9D2-47B7-99BB-7E36C66E2C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD317D23-C9D2-47B7-99BB-7E36C66E2C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD317D23-C9D2-47B7-99BB-7E36C66E2C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD317D23-C9D2-47B7-99BB-7E36C66E2C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688D837F-C097-4B28-B2F6-FCB5437E66D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688D837F-C097-4B28-B2F6-FCB5437E66D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688D837F-C097-4B28-B2F6-FCB5437E66D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688D837F-C097-4B28-B2F6-FCB5437E66D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
